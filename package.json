@@ -1,0 +1,22 @@
+{
+  "name": "api1-guided",
+  "version": "1.0.0",
+  "description": "Guided project for **Node API 1** Module.",
+  "main": "index.js",
+  "scripts": {
+    "ketchup": "git fetch && git reset --hard origin/web50-jamesblacklock",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nanoid": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
